@@ -5,7 +5,7 @@ Minimum viable product intended to create a local collective of working cannabis
 ASP.NET, C#, SQL, PostgreSQL, RESTful APIs, Mailchimp, Bcrypt, JSON, React, Redux, JavaScript, HTML, CSS, Bootstrap
 
 ## Agile Team
-Alejandro Ozai, [Heather Capati](https://github.com/hcapati), [Austin English](https://github.com/AustinEnglish), [Zain Bakhari](https://github.com/zbokhari), [Allan Kounlavong](https://github.com/AKounlavong), [Andrew Tran](https://github.com/andrewtronn)
+Alejandro Ozai, [Heather Capati](https://github.com/hcapati), [Austin English](https://github.com/AustinEnglish),  [Andrew Tran](https://github.com/andrewtronn), [Zain Bakhari](https://github.com/zbokhari), [Allan Kounlavong](https://github.com/AKounlavong)
 
 ## Primary Responsibilities
  * Ran weekly scrum sprints, created kanban board, and assinged tasks to team
