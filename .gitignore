@@ -1,0 +1,17 @@
+.vscode/
+.DS_Store
+package-lock.json
+
+#backend
+back-end/bin
+back-end/obj
+back-end/bin/Debug/netcoreapp2.2
+back-end/obj/Debug/netcoreapp2.2
+back-end/appsettings.json
+back-end/.DS_Store
+back-end/keys
+
+#frontend
+front-end/node_modules/
+front-end/.DS_Store
+

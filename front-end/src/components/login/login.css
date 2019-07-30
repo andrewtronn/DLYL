@@ -1,0 +1,58 @@
+.loginBackground{
+    height: 100vh;
+    background: url('https://thefreshtoast.com/wp-content/uploads/2019/01/wanted-real-cannabis-photography.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.loginOverlay{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .0);
+    color: white;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginWidth{
+    width: 50%;
+}
+.inputButtonCombo{
+    margin: 0% 0% 20% 27%;
+    padding: 0%;
+}
+#loginHeader{
+    color: white;
+    background: inherit;
+    padding-bottom: 1%;
+}
+.loginButton{
+    margin-left: 42.79%;
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+}
+.loginButton:hover{
+    background-color: rgb(0,121,26);
+    color: white;
+    border: 1px solid rgb(0,121,26);
+}
+.loginForm{
+    margin: 0%;
+}
+.loginInput {
+    border: 1px solid transparent;
+    display: inline;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.loginInput:focus{
+    appearance: none;
+    border-bottom-color: black;
+    box-shadow: none;
+}
+.loginInput:active{
+   outline: none;
+}

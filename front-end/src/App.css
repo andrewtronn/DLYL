@@ -1,0 +1,34 @@
+/* div {
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: 0 0;
+} */
+
+#outer-wrapper {
+    z-index:1;
+    max-width: 1140px;
+    margin: 0 auto 20px;
+    background-color: #FFF;
+    font: normal normal 14px Poppins;
+    color: #4f4f4f;
+    word-break: break-word;
+}
+
+.clear {
+    clear:both;
+}
+
+.logo_home{
+    display:flex;
+    justify-content:center;
+}
+html, body {
+    margin: 0%;
+    padding: 0%;
+} 
+
+.home_bar{
+    display:flex;
+}

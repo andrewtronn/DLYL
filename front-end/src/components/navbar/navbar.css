@@ -1,0 +1,26 @@
+
+.main-nav {
+    background-color: black;
+    display: flex;
+    height: 100px;
+}
+
+#logo-hover {
+    height: 100%;
+    padding: 10px 0;
+}
+
+.nav-item {
+    color: white;
+    padding: 40px 30px;
+}
+
+.nav-item:hover {
+    background-color: rgb(0,121,26);
+    color: white !important;
+    text-decoration: none;
+}
+
+.logout{
+    margin-left: auto;
+}

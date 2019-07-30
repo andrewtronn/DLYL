@@ -1,0 +1,40 @@
+.imgresize {
+
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+
+}
+.textcenter {
+    text-align: center;
+}
+
+.font {
+    font-family: "Poppins"
+}
+.inputfile:focus,
+.inputfile:hover {
+    background-color: #FFD439;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	position: absolute;
+    z-index: -1;
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+}
+.nav-item:hover {
+    color: #FFD439;
+    list-style-type: none
+}
+.select-file {
+    color: black;
+}

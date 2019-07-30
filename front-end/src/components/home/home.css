@@ -1,0 +1,19 @@
+.clear {
+    clear: both;
+}
+
+#content-wrapper {
+    margin: 35px auto 5px;
+    overflow: hidden
+}
+
+div {
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: 0 0;
+    font: normal normal 14px Poppins;
+    color: #4f4f4f;
+    word-break: break-word;
+}

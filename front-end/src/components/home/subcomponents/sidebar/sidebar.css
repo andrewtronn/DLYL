@@ -1,0 +1,264 @@
+.clear {
+    clear: both;
+}
+
+/* div {
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: 0 0;
+    font: normal normal 14px Poppins;
+    color: #4f4f4f;
+    word-break: break-word;
+} */
+
+/* Sidebar-Wrapper */
+
+#sidebar-wrapper {
+    float: right;
+    overflow: hidden;
+    width: 32%;
+    /* padding-left: 2%; */
+    box-sizing: border-box;
+    word-wrap: break-word;
+    /* padding-bottom: 20px */
+}
+
+/* Sidebar-Widgets */
+
+#sidebar-wrapper .widget {
+    /* padding: 0; */
+    background: #FFF;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.widget {
+    line-height: 1.4;
+    position: relative;
+    min-height: 0;
+}
+
+.sidebar .widget .title-wrap {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 10px;
+    line-height: 33px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+
+
+.sidebar .widget h2 {
+    display: inline-block;
+    position: relative;
+    background-color: #fff;
+    color: #1c1c1c;
+    font-size: 15px;
+    letter-spacing: -.4px;
+    text-transform: uppercase;
+    font-weight: 700;
+    z-index: 1;
+    margin: 0 0 10px;
+    /* padding-right: 15px;
+    padding-left: 25px; */
+}
+
+.sidebar .widget-content {
+    margin: 0;
+}
+
+#ArchiveList {
+    text-align: left;
+}
+
+.BlogArchive #ArchiveList ul {
+    margin: 0;
+    /* padding: 0; */
+    list-style: none;
+    list-style-image: none;
+    border-width: 0;
+}
+
+.BlogArchive #ArchiveList ul li {
+    background: none;
+    list-style: none;
+    list-style-image: none;
+    list-style-position: outside;
+    border-width: 0;
+    /* padding-left: 15px; */
+    text-indent: -15px;
+    margin: .25em 0;
+    background-image: none;
+}
+
+.BlogArchive #ArchiveList ul ul li {
+    /* padding-left: 1.2em; */
+}
+
+.BlogArchive #ArchiveList ul.posts li {
+    /* padding-left: 1.3em; */
+}
+
+.widget ul {
+    line-height: 1.2;
+}
+
+.widget li {
+    /* padding: .25em 0; */
+}
+
+ul{
+    font-weight:700;
+}
+
+a{
+    /* padding: 0; */
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: 0 0;
+}
+
+#ArchiveList .toggle {
+    cursor: pointer;
+    font-family: Arial,sans-serif;
+}
+
+#ArchiveList a.toggle, #ArchiveList a.toggle:link, #ArchiveList a.toggle:visited, #ArchiveList a.toggle:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+span{
+    /* padding: 0; */
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: 0 0;
+}
+
+#ArchiveList .toggle-open {
+    line-height: .6em;
+}
+
+/* div#ArchiveList a {
+    color: #202020;
+} */
+
+#ArchiveList a.post-count-link, #ArchiveList a.post-count-link:link, #ArchiveList a.post-count-link:visited {
+    text-decoration: none;
+}
+
+.widget-item-control {
+    float: right;
+    height: 20px;
+    margin-top: -20px;
+    position: relative;
+    z-index: 10;
+}
+
+.widget-item-control, a.quickedit {
+    display: none!important;
+}
+
+.item-control {
+    display: none;
+}
+
+.quickedit {
+    cursor: pointer;
+}
+
+.item-control a, .item-action a {
+    text-decoration: none !important;
+}
+
+img{
+    /* padding:0; */
+    outline:0;
+    vertical-align: baseline;
+}
+
+a img{
+    position: relative;
+}
+
+.widget img {
+    max-width: 100%;
+}
+
+.widget .widget-item-control a img {
+    border: none;
+    background: none;
+    box-shadow: none;
+}
+
+.cmm-widget li {
+    background: none!important;
+    clear: both;
+    list-style: none;
+    word-break: break-all;
+    display: block;
+    border-top: 1px dotted #F5F5F5;
+    overflow: hidden;
+    margin: 0;
+    /* padding: 10px 0; */
+}
+
+.cmm-widget li:first-child {
+    /* padding-top: 0; */
+    border-top: 0;
+}
+
+.cmm-widget li .cmm-avatar {
+    position: relative;
+    overflow: hidden;
+    /* padding: 0; */
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.cmm-img {
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin: 0 10px 0 0;
+    opacity: 0;
+}
+
+.cmm-widget a {
+    color: #1c1c1c;
+    position: relative;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    overflow: hidden;
+}
+
+.cmm-widget li span {
+    margin-top: 4px;
+    color: #bdbdbd;
+    display: block;
+    line-height: 1.2em;
+    text-transform: lowercase;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+

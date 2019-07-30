@@ -1,0 +1,67 @@
+.background{
+    height: 100vh;
+    background: url('https://www.cannabisculture.com/wp-content/uploads/2018/02/JUSTIN_MCIVOR_2-1.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.overlay{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    margin-left: 10%;
+    justify-content: center;
+    align-items: center;
+}
+.signUpForm{
+    padding: 15px 0px 20px 0px;
+    flex-direction: column;
+    background-color: inherit;
+}
+.signUpButton{
+    margin-left: 40%;
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+}
+.signUpButton:hover{
+    background-color: rgb(0,121,26);
+    color: white;
+    border: 1px solid rgb(0,121,26);
+}
+.input {
+    border: 1px solid transparent;
+    display: inline;
+    margin: 0% 0% 4% 0%;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.input:focus{
+    appearance: none;
+    border-bottom-color: black;
+    box-shadow: none;
+}
+.input:active{
+   outline: none;
+}
+.passwordCombo{
+    width: 112% !important;
+}
+.form{
+    width: 145%;
+    margin-left: 40%;
+}
+.newsLetter{
+    color: white;
+}
+#mainTxt{
+    color: white;
+    margin-left: 40%;
+    padding-bottom: 2%;
+}
+
+form {
+    margin-top: 10%;
+}

@@ -1,0 +1,180 @@
+#main-wrapper {
+    margin-top: 0;
+    float: left;
+    overflow: hidden;
+    width: 68%;
+    word-wrap: break-word
+}
+.posts-title {
+    margin-right: 2%;
+    position: relative;
+    clear: both;
+    z-index: 1;
+    margin-bottom: 10px;
+    line-height: 33px;
+}
+.posts-title h2 {
+    display: inline-block;
+    position: relative;
+    background-color: #fff;
+    color: #1c1c1c;
+    font-size: 15px;
+    letter-spacing: -.4px;
+    text-transform: uppercase;
+    font-weight: 700;
+    z-index: 1;
+    margin: 0;
+    padding-right: 15px;
+}
+.posts-title h2 a {
+    color: #1c1c1c;
+}
+.posts-title:after {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    top: 12px;
+    left: 0;
+    width: 99%;
+    border: 4px double #eee;
+}
+
+#main {
+    margin-right: 2%;
+}
+
+.main .widget {
+    margin: 0;
+}
+
+.post {
+    position: relative;
+    min-height: 0;
+    display: block;
+    overflow: hidden;
+    word-wrap: break-word;
+    margin: 0 0 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dotted #f5f5f5;
+}
+
+
+.postags a {
+    background: #FFD439;
+    color: #fff;
+    margin: 0;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 6px;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+font {
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: 0 0;
+}
+
+.retitle h2 {
+    margin: 8px 0;
+    display: block;
+}
+
+.index .post h2 {
+    margin: 0 0 8px;
+    padding: 0 10px 0 0;
+    overflow: hidden;
+}
+
+.post h2 a {
+    color: #1c1c1c;
+    font-size: 19px;
+    line-height: 1.5em;
+    font-weight: 500;
+    text-decoration: none;
+    position: relative;
+    min-height: 0;
+}
+
+.date-header {
+    display: block;
+    overflow: hidden;
+    font-weight: 400;
+    margin: 0 !important;
+    padding: 0;
+}
+
+#meta-post {
+    font-size: 12px;
+    color: #bdbdbd;
+    line-height: 1.4em;
+}
+
+#meta-post a {
+    color: #bdbdbd;
+}
+
+#meta-post .timestamp-link {
+    margin-left: 0;
+}
+
+abbr {
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: 0 0;
+}
+
+.resumo {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #919191;
+    line-height: 1.5em;
+}
+
+.resumo span {
+    display: block;
+    margin-bottom: 8px;
+    padding-right: 10px;
+}
+
+a.read-more {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 500;
+    text-align: left;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    white-space: nowrap;
+    line-height: 25px;
+    height: 25px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 0;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 0 10px;
+    margin-top: 3px;
+    outline: none;
+    border: none;
+    overflow: hidden;
+}
+
+h2 {
+    display: inline-block;
+    position: relative;
+    background-color: #fff;
+    color: #1c1c1c;
+    font-size: 15px;
+    letter-spacing: -.4px;
+    text-transform: uppercase;
+    font-weight: 700;
+    z-index: 1;
+    margin: 0 0 10px;
+    padding-right: 15px;
+}

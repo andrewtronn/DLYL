@@ -1,0 +1,36 @@
+.profile-container{
+    display: flex;
+    margin-top: 50px;
+    background-color: #F5F5F5;
+}
+a {
+    color: blue;
+}
+.row2{
+    margin-left: 10%;
+    width: 100%;
+}
+.row1 img{
+    margin-bottom: 30px;
+    height:150px;
+    width:auto;
+    border:3px solid rgba(245, 245, 245, 0.904);
+    border-radius: 50%;
+}
+h5 {
+    color: rgb(218, 180, 47);
+}
+hr{
+    background-color: #272727;
+}
+.profile-pic {
+    /* padding:2px; */
+    border: 1px solid #090909;
+    background: linear-gradient(#090909, 10%, #FFD439);
+}
+
+#namecss {
+    padding-top: 10%;
+    background-color: #F5F5F5;
+    font-size: 20px;
+}
